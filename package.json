@@ -11,6 +11,7 @@
     "clean-node": "rm -rf node_modules && npm cache clean && yarn cache clean && yarn"
   },
   "main": "./lib/index.js",
+  "types": "./lib/main.d.ts",
   "repository": "https://github.com/stephenlaughton/test-shared.git",
   "author": "Stephen Laughton <stephenlaughton@gmail.com>",
   "license": "MIT",
