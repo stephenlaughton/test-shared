@@ -1,6 +1,6 @@
 {
   "name": "test-shared",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "test of shared resources",
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
