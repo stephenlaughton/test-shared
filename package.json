@@ -2,8 +2,20 @@
   "name": "test-shared",
   "version": "1.0.0",
   "description": "test of shared resources",
-  "main": "index.js",
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "compile": "node_modules/typescript/bin/tsc -p '.'",
+    "compile-watch": "node_modules/typescript/bin/tsc -p '.' -w",
+    "clean": "find app -type f -name '*.js' -delete && find app -type f -name '*.js.map' -delete && rm -f main.js main.js.map",
+    "clean-node": "rm -rf node_modules && npm cache clean && yarn cache clean && yarn"
+  },
+  "main": "./lib/index.js",
   "repository": "https://github.com/stephenlaughton/test-shared.git",
   "author": "Stephen Laughton <stephenlaughton@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^19.0.2",
+    "typescript": "^2.2.2"
+  }
 }
