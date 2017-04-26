@@ -1,0 +1,9 @@
+{
+  "name": "test-shared",
+  "version": "1.0.0",
+  "description": "test of shared resources",
+  "main": "index.js",
+  "repository": "https://github.com/stephenlaughton/test-shared.git",
+  "author": "Stephen Laughton <stephenlaughton@gmail.com>",
+  "license": "MIT"
+}
