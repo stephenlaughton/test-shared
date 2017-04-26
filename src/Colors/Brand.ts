@@ -5,5 +5,4 @@ export const Brand = {
   primary: Palette.blue._700,
   primaryDark: Palette.blue._900,
   accent: Palette.blue._500,
-  white: '#fff'
 };

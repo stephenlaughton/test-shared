@@ -3,5 +3,4 @@ export declare const Brand: {
     primary: string;
     primaryDark: string;
     accent: string;
-    white: string;
 };
